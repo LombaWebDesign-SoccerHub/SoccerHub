@@ -94,9 +94,29 @@
         }
     }
 }
-.merchandise{
-    .btn-mercandise{
-        border: 1px solid #302D26;
-        background-color: #1B1C21;
+
+.news{
+    .card {
+       height: 510px;
+       background-color: #292929;
+       color: #888888;
+       border-radius: 20px;
+       .title {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+       .btn{
+           border: 1px solid #888888;
+           width: 200px;
+           color: #888888;
+           border-radius: 20px;
+           &:hover{
+               background-color: #2064ED;
+               color: #FFF;
+               border: 1px solid #2064ED;
+           }
+       }
     }
 }
