@@ -19,8 +19,7 @@
     }
  }
 
-.content{
-    height: 1000px;
+.contents{
     .isi{
         display: flex;
         flex-direction: column;
@@ -52,3 +51,30 @@
         }
     }
 }
+
+// Footer
+footer {
+    background-image: url('../images/background-footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    ul {
+        list-style: none;
+        display: inline;
+        li {
+            list-style: none;
+            display: inline;
+            a {
+                display: inline-block;
+                color: #888888;
+                text-decoration: none;
+            }
+        }
+    }
+    .copy {
+        color: #888888;
+    }
+ }
+//  Footer
